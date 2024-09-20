@@ -8,6 +8,7 @@ class Config
      * @var string
      */
     public $domain = "localhost/homeOfPirates";
+    public $protocol = "http://";
 //todo change when put on server
     /**
      * @var null|string

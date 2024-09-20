@@ -1,79 +1,69 @@
 
-<nav role='navigation' class='mainNav'>
-    <a onclick='openNav()' >
-        <img class='menuButton' src='img/icons/menu.svg'/>
+<?php if ($controller->template!="home.php"){ ?>
+    <a class="HomeButton"  href="Home" >
+        <img  class='homeButton' src='img/icons/home.svg'/>
     </a>
-
-
-    <?php if ($controller->template!="home.php"){ ?>
-        <a  onclick="submitMainForm('Home','render');" href="#" >
-            <img  class='homeButton' src='img/icons/home.svg'/>
-        </a>
-    <?php } ?>
-
+<?php } ?>
+<nav role='navigation' class='mainNav'>
+    <a class="NavButton">
+        <img class='menuButton' onclick='openNav()'  src='img/icons/menu.svg'/>
+    </a>
     <div class='navbar' id='navbar'>
 
         <!--===== Home =====-->
         <?php if ($controller->template=="home.php"){ ?>
-            <span class='navlink'>HOME</span>
+            <span class='NavSpan' >HOME</span>
         <?php }else{ ?>
-            <a href="Home" onclick="submitMainForm('Home','render');" class='navlink'>HOME</a>
-        <?php } ?>
-
-        <!--===== Portfolie =====-->
-        <?php if ($controller->template=="portfolio.php") { ?>
-            <span class='navlink'>PORTFOLIO</span>
-        <?php }else{ ?>
-            <a href="Portfolio" onclick="submitMainForm('Portfolio','render');" class='navlink'>PORTFOLIO</a>
+            <a class='NavLink' href="Home">HOME</a>
         <?php } ?>
 
         <!--===== The Crew =====-->
         <?php if ($controller->template=="crew.php") { ?>
-            <span class='navlink'>THE CREW</span>
+            <span class='NavSpan' >THE CREW</span>
         <?php }else{ ?>
-            <a href="Crew" onclick="submitMainForm('Crew','render');" class='navlink'>THE CREW</a>
+            <a class='NavLink' href="Crew">THE CREW</a>
         <?php } ?>
 
         <!--===== Elektronische Requisiten =====-->
         <?php if ($controller->template=="elektronische_requisiten.php") { ?>
-            <span class='navlink'>ELEKTRONISCHE REQUISITEN</span>
+            <span class='NavSpan' >ELEKTRONISCHE REQUISITEN</span>
         <?php }else{ ?>
-            <a href="Elektronische_requisiten" onclick="submitMainForm('Elektronische_requisiten','render');" class='navlink'>ELEKTRONISCHE REQUISITEN</a>
+            <a class='NavLink' href="Elektronische_requisiten">ELEKTRONISCHE REQUISITEN</a>
         <?php } ?>
 
         <!--===== Projekte =====-->
         <?php if ($controller->template=="projects.php") { ?>
-            <span class='navlink'>PROJEKTE</span>
+            <span class='NavSpan' >PROJEKTE</span>
         <?php }else{ ?>
-            <a href="Projects" onclick="submitMainForm('Projects','render');" href="#" class='navlink'>PROJEKTE</a>
+            <a class='NavLink' href="Projects">PROJEKTE</a>
         <?php } ?>
 
         <!--===== Artdepartmentstore =====-->
         <?php if ($controller->template=="furniture") { ?>
-            <span class='navlink'>ARTDEPARTMENTSTORE ↗</span>
+            <span class='NavSpan' >ARTDEPARTMENTSTORE ↗</span>
         <?php }else{ ?>
-            <a href='https://www.artdepartmentstore.com/' target='_blank' rel='noopener' class='navlink'>ARTDEPARTMENTSTORE ↗</a>
+            <a class='NavLink' href='https://www.artdepartmentstore.com/' target='_blank' rel='noopener'>ARTDEPARTMENTSTORE ↗</a>
         <?php } ?>
 
         <!--===== Filmtanken =====-->
         <?php if ($controller->template=="tanke") { ?>
-            <span class='navlink'>FILMTANKE ↗</span>
+            <span class='NavSpan' >FILMTANKE ↗</span>
         <?php }else{ ?>
-            <a href='https://www.filmtanke.com/' target='_blank' rel='noopener' class='navlink'>FILMTANKE ↗</a>
+            <a class='NavLink' href='https://www.filmtanke.com/' target='_blank' rel='noopener'>FILMTANKE ↗</a>
         <?php } ?>
 
         <!--===== Impressum =====-->
         <?php if ($controller->template=="impressum.php") { ?>
-            <span class='navlink'>IMPRESSUM</span>
+            <span class='NavSpan' >IMPRESSUM</span>
         <?php }else{ ?>
-            <a href="Impressum" onclick="submitMainForm('Impressum','render');" class='navlink'>IMPRESSUM</a>
+            <a class='NavLink' href="Impressum">IMPRESSUM</a>
         <?php } ?>
 
         <!--===== Datenschutz =====-->
         <?php if ($controller->template=="datenschutz.php") { ?>
-            <span class='navlink'>DATENSCHUTZ</span>
+            <span class='NavSpan' >DATENSCHUTZ</span>
         <?php }else{ ?>
-            <a  href="Datenschutz" onclick="submitMainForm('Datenschutz','render');" class='navlink'>DATENSCHUTZ</a>
+            <a class='NavLink' href="Datenschutz">DATENSCHUTZ</a>
         <?php } ?>
 
         <!------ END ------>

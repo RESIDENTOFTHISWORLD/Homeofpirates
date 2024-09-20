@@ -4,11 +4,6 @@
     <meta charset="utf-8">
     <title><?= $controller->title;?></title>
     <meta name="title" content="<?= $controller->title;?>">
-
-
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name="author" content="Jonathan Albrecht">
-	<meta name="description" content="Constructed Atmosphere - Since 1994.">
     <link rel="icon" type="image/x-icon" href="http://<?=$config->domain;?>/img/icons/hop_favicon.ico">
 	<link rel="shortcut icon" href="http://<?=$config->domain;?>/img/icons/hop_favicon.ico">
 	<link rel="stylesheet" href="http://<?=$config->domain;?>/css/style.css" type="text/css">

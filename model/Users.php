@@ -31,7 +31,7 @@ class Users extends Base
             $this->assign($result);
             $success = true;
         } else {
-            echo "ERROR: Could not load " . $this->getTableName() . " with given username: " . $username . "!";
+//            echo "ERROR: Could not load " . $this->getTableName() . " with given username: " . $username . "!";
             return $success;
         }
 

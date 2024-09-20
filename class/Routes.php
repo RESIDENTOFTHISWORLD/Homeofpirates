@@ -10,25 +10,6 @@ public $routes = [
     // Add more routes here
 ];
 
-//public $URLs = array(
-//    '/'=> array(
-//        'page' => 'home.php',
-//        'rewrite' => '/home'
-//    ),
-//    '/projects'=>  array(
-//    'page' => 'projects.php',
-//    'rewrite' => '/projects'),
-//    '/portfolio'=>  array(
-//        'page' => 'portfolio.php',
-//    ),
-//
-//        'portfolio' => 'portfolio.php',
-//        'impressum' => 'impressum.php',
-//        'elektronische_requisiten' => 'elektronische_requisiten.php',
-//        'datenschutz' => 'datenschutz.php',
-//        'crew' => 'crew.php'
-//    ),
-//);
     function createURL($key = '/')
     {
         /**

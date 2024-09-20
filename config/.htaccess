@@ -1,8 +1,4 @@
-
-RewriteEngine on
-# Check 1 : is not a dir
-RewriteCond %{REQUEST_FILENAME} !-d
-# Check 1 : is not a file
-RewriteCond %{REQUEST_FILENAME} !-f
-# Redirect all to index.php
-RewriteRule . index.php [L]
+SetEnvIfNoCase X-Requested-With XMLHttpRequest ajax
+Order Deny,Allow
+Deny from all
+Allow from env=ajax

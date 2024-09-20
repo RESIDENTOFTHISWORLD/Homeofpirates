@@ -30,12 +30,12 @@ class Home extends Base
 //        $token = $this->getToken();
 //        $collaboratorsArray = $gitApi->getRepoCollaboratorsForToken($repoName, $token);
 //        $collaboratorsArray = json_decode($collaboratorsArray);
-//        if (isset($collaboratorsArray->message) && $collaboratorsArray->message == "Must have admin rights to Repository.") {
+//        if (isset($collaboratorsArray->message) && $collaboratorsArray->message == "Must have manager rights to Repository.") {
 //            echo "error";
 //        } else {
-//            $admin = $this->getAndSetAdmin($token);
+//            $manager = $this->getAndSetAdmin($token);
 //            $mitarbeiter = new Mitarbeiter();
-//            $mitarbeiterArray = $mitarbeiter->loadList("admin_id = '" . $admin->id . "'");
+//            $mitarbeiterArray = $mitarbeiter->loadList("admin_id = '" . $manager->id . "'");
 //
 //            $colaborators = "";
 //            $notColaboratorsArray = [];

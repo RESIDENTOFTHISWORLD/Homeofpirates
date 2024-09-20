@@ -1,12 +1,12 @@
 <footer>
   <div class="container">
     <div class="half">
-      <a href="tel:+49305589079">+49&nbsp;30&nbsp;558&nbsp;90&nbsp;79</a><br><br>
-      <a href="mailto: mail@homeofpirates.de">mail@homeofpirates.de</a>
+      <a class="footer" href="tel:+49305589079">+49&nbsp;30&nbsp;558&nbsp;90&nbsp;79</a><br><br>
+      <a class="footer" href="mailto: mail@homeofpirates.de">mail@homeofpirates.de</a>
     </div>
     <div class="half" id="footerRight">
-      <a href="impressum.php">Impressum</a><br><br>
-      <a href="datenschutz.php">Datenschutz</a>
+      <a class="footer" href="impressum" onclick="submitMainForm('Impressum', 'render')">Impressum</a><br><br>
+      <a class="footer" href="datenschutz" onclick="submitMainForm('Datenschutz', 'render')">Datenschutz</a>
     </div>
     <div class="row">
       <small>

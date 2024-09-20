@@ -1,391 +1,129 @@
-[06-Jul-2024 14:44:57 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\homeOfPirates\index.php on line 35
-[06-Jul-2024 14:44:57 Europe/Berlin] 
-[06-Jul-2024 14:45:13 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\homeOfPirates\index.php on line 35
-[06-Jul-2024 14:45:13 Europe/Berlin] 
-[06-Jul-2024 14:45:17 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\homeOfPirates\index.php on line 35
-[06-Jul-2024 14:45:17 Europe/Berlin] 
-[06-Jul-2024 14:45:22 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\homeOfPirates\index.php on line 35
-[06-Jul-2024 14:45:22 Europe/Berlin] 
-[06-Jul-2024 14:45:52 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\homeOfPirates\index.php on line 35
-[06-Jul-2024 14:45:52 Europe/Berlin] 
-[06-Jul-2024 14:46:33 Europe/Berlin] projects
-[06-Jul-2024 14:46:33 Europe/Berlin] projects
-[06-Jul-2024 14:46:33 Europe/Berlin] projects
-[06-Jul-2024 14:46:33 Europe/Berlin] projects
-[06-Jul-2024 14:46:37 Europe/Berlin] projects
-[06-Jul-2024 14:46:37 Europe/Berlin] projects
-[06-Jul-2024 14:46:37 Europe/Berlin] projects
-[06-Jul-2024 14:46:37 Europe/Berlin] projects
-[06-Jul-2024 14:46:43 Europe/Berlin] crew
-[06-Jul-2024 14:46:50 Europe/Berlin] crew
-[06-Jul-2024 14:46:52 Europe/Berlin] crew
-[06-Jul-2024 14:46:55 Europe/Berlin] crew
-[06-Jul-2024 15:12:11 Europe/Berlin] 
-[06-Jul-2024 15:12:13 Europe/Berlin] 
-[06-Jul-2024 15:12:16 Europe/Berlin] 
-[06-Jul-2024 15:12:21 Europe/Berlin] crew
-[06-Jul-2024 15:14:49 Europe/Berlin] crew
-[06-Jul-2024 15:14:52 Europe/Berlin] projects
-[06-Jul-2024 15:14:52 Europe/Berlin] projects
-[06-Jul-2024 15:14:52 Europe/Berlin] projects
-[06-Jul-2024 15:14:52 Europe/Berlin] projects
-[06-Jul-2024 15:14:56 Europe/Berlin] projects
-[06-Jul-2024 15:14:56 Europe/Berlin] projects
-[06-Jul-2024 15:14:56 Europe/Berlin] projects
-[06-Jul-2024 15:14:56 Europe/Berlin] projects
-[06-Jul-2024 15:27:27 Europe/Berlin] projects
-[06-Jul-2024 15:27:28 Europe/Berlin] projects
-[06-Jul-2024 15:27:28 Europe/Berlin] projects
-[06-Jul-2024 15:27:28 Europe/Berlin] projects
-[06-Jul-2024 15:27:34 Europe/Berlin] Crew
-[06-Jul-2024 15:27:37 Europe/Berlin] Projects
-[06-Jul-2024 15:27:38 Europe/Berlin] Projects
-[06-Jul-2024 15:27:38 Europe/Berlin] Projects
-[06-Jul-2024 15:27:38 Europe/Berlin] Projects
-[06-Jul-2024 15:27:42 Europe/Berlin] Projects
-[06-Jul-2024 15:27:53 Europe/Berlin] Home
-[06-Jul-2024 15:27:58 Europe/Berlin] project
-[06-Jul-2024 15:28:01 Europe/Berlin] projects
-[06-Jul-2024 15:28:02 Europe/Berlin] projects
-[06-Jul-2024 15:28:02 Europe/Berlin] projects
-[06-Jul-2024 15:28:02 Europe/Berlin] projects
-[06-Jul-2024 15:28:05 Europe/Berlin] crew
-[06-Jul-2024 15:28:10 Europe/Berlin] datenschutz
-[06-Jul-2024 15:28:16 Europe/Berlin] Impressum
-[06-Jul-2024 15:28:18 Europe/Berlin] Home
-[06-Jul-2024 15:32:16 Europe/Berlin] Home
-[06-Jul-2024 15:32:18 Europe/Berlin] home
-[06-Jul-2024 15:32:23 Europe/Berlin] projects
-[06-Jul-2024 15:32:23 Europe/Berlin] projects
-[06-Jul-2024 15:32:23 Europe/Berlin] projects
-[06-Jul-2024 15:32:23 Europe/Berlin] projects
-[06-Jul-2024 15:32:26 Europe/Berlin] projects
-[06-Jul-2024 15:32:26 Europe/Berlin] projects
-[06-Jul-2024 15:32:26 Europe/Berlin] projects
-[06-Jul-2024 15:32:26 Europe/Berlin] projects
-[06-Jul-2024 15:32:29 Europe/Berlin] projects
-[06-Jul-2024 15:32:29 Europe/Berlin] projects
-[06-Jul-2024 15:32:29 Europe/Berlin] projects
-[06-Jul-2024 15:32:29 Europe/Berlin] projects
-[06-Jul-2024 15:40:35 Europe/Berlin] projects
-[06-Jul-2024 15:40:35 Europe/Berlin] projects
-[06-Jul-2024 15:40:35 Europe/Berlin] projects
-[06-Jul-2024 15:40:35 Europe/Berlin] projects
-[06-Jul-2024 15:40:37 Europe/Berlin] projects
-[06-Jul-2024 15:40:37 Europe/Berlin] projects
-[06-Jul-2024 15:40:37 Europe/Berlin] projects
-[06-Jul-2024 15:40:37 Europe/Berlin] projects
-[06-Jul-2024 15:40:38 Europe/Berlin] projects
-[06-Jul-2024 15:40:39 Europe/Berlin] projects
-[06-Jul-2024 15:40:39 Europe/Berlin] projects
-[06-Jul-2024 15:40:39 Europe/Berlin] projects
-[06-Jul-2024 15:40:41 Europe/Berlin] projects
-[06-Jul-2024 15:40:41 Europe/Berlin] projects
-[06-Jul-2024 15:40:41 Europe/Berlin] projects
-[06-Jul-2024 15:40:41 Europe/Berlin] projects
-[06-Jul-2024 15:41:23 Europe/Berlin] projects
-[06-Jul-2024 15:41:23 Europe/Berlin] projects
-[06-Jul-2024 15:41:23 Europe/Berlin] projects
-[06-Jul-2024 15:41:23 Europe/Berlin] projects
-[06-Jul-2024 15:41:24 Europe/Berlin] projects
-[06-Jul-2024 15:41:24 Europe/Berlin] projects
-[06-Jul-2024 15:41:24 Europe/Berlin] projects
-[06-Jul-2024 15:41:24 Europe/Berlin] projects
-[06-Jul-2024 15:41:26 Europe/Berlin] projects
-[06-Jul-2024 15:41:26 Europe/Berlin] projects
-[06-Jul-2024 15:41:26 Europe/Berlin] projects
-[06-Jul-2024 15:41:26 Europe/Berlin] projects
-[06-Jul-2024 15:41:31 Europe/Berlin] projects
-[06-Jul-2024 15:41:31 Europe/Berlin] projects
-[06-Jul-2024 15:41:31 Europe/Berlin] projects
-[06-Jul-2024 15:41:31 Europe/Berlin] projects
-[06-Jul-2024 15:41:32 Europe/Berlin] projects
-[06-Jul-2024 15:41:32 Europe/Berlin] projects
-[06-Jul-2024 15:41:32 Europe/Berlin] projects
-[06-Jul-2024 15:41:32 Europe/Berlin] projects
-[06-Jul-2024 15:41:56 Europe/Berlin] projects
-[06-Jul-2024 15:41:57 Europe/Berlin] projects
-[06-Jul-2024 15:41:57 Europe/Berlin] projects
-[06-Jul-2024 15:41:57 Europe/Berlin] projects
-[06-Jul-2024 15:42:33 Europe/Berlin] projects
-[06-Jul-2024 15:42:34 Europe/Berlin] projects
-[06-Jul-2024 15:42:34 Europe/Berlin] projects
-[06-Jul-2024 15:42:34 Europe/Berlin] projects
-[06-Jul-2024 15:42:35 Europe/Berlin] projects
-[06-Jul-2024 15:42:35 Europe/Berlin] projects
-[06-Jul-2024 15:42:35 Europe/Berlin] projects
-[06-Jul-2024 15:42:35 Europe/Berlin] projects
-[06-Jul-2024 15:42:36 Europe/Berlin] projects
-[06-Jul-2024 15:42:36 Europe/Berlin] projects
-[06-Jul-2024 15:42:36 Europe/Berlin] projects
-[06-Jul-2024 15:42:36 Europe/Berlin] projects
-[06-Jul-2024 15:43:15 Europe/Berlin] Home
-[06-Jul-2024 15:43:19 Europe/Berlin] Portfolio
-[06-Jul-2024 15:43:20 Europe/Berlin] Crew
-[06-Jul-2024 15:43:23 Europe/Berlin] Elektronische_requisiten
-[06-Jul-2024 15:43:26 Europe/Berlin] Projects
-[06-Jul-2024 15:43:26 Europe/Berlin] Projects
-[06-Jul-2024 15:43:26 Europe/Berlin] Projects
-[06-Jul-2024 15:43:26 Europe/Berlin] Projects
-[06-Jul-2024 15:43:28 Europe/Berlin] Impressum
-[06-Jul-2024 15:43:31 Europe/Berlin] Datenschutz
-[06-Jul-2024 15:43:55 Europe/Berlin] Projects
-[06-Jul-2024 15:43:55 Europe/Berlin] Projects
-[06-Jul-2024 15:43:55 Europe/Berlin] Projects
-[06-Jul-2024 15:43:55 Europe/Berlin] Projects
-[06-Jul-2024 15:44:01 Europe/Berlin] Crew
-[06-Jul-2024 15:44:04 Europe/Berlin] Portfolio
-[06-Jul-2024 15:44:05 Europe/Berlin] Home
-[06-Jul-2024 15:45:09 Europe/Berlin] Home
-[06-Jul-2024 15:45:11 Europe/Berlin] projects
-[06-Jul-2024 15:45:11 Europe/Berlin] projects
-[06-Jul-2024 15:45:11 Europe/Berlin] projects
-[06-Jul-2024 15:45:11 Europe/Berlin] projects
-[06-Jul-2024 15:45:14 Europe/Berlin] projects
-[06-Jul-2024 15:45:14 Europe/Berlin] projects
-[06-Jul-2024 15:45:14 Europe/Berlin] projects
-[06-Jul-2024 15:45:14 Europe/Berlin] projects
-[06-Jul-2024 15:45:18 Europe/Berlin] projects
-[06-Jul-2024 15:45:18 Europe/Berlin] projects
-[06-Jul-2024 15:45:18 Europe/Berlin] projects
-[06-Jul-2024 15:45:18 Europe/Berlin] projects
-[06-Jul-2024 15:46:03 Europe/Berlin] projects
-[06-Jul-2024 15:46:04 Europe/Berlin] projects
-[06-Jul-2024 15:46:04 Europe/Berlin] projects
-[06-Jul-2024 15:46:04 Europe/Berlin] projects
-[06-Jul-2024 15:46:05 Europe/Berlin] projects
-[06-Jul-2024 15:46:05 Europe/Berlin] projects
-[06-Jul-2024 15:46:05 Europe/Berlin] projects
-[06-Jul-2024 15:46:05 Europe/Berlin] projects
-[06-Jul-2024 15:46:07 Europe/Berlin] projects
-[06-Jul-2024 15:46:07 Europe/Berlin] projects
-[06-Jul-2024 15:46:07 Europe/Berlin] projects
-[06-Jul-2024 15:46:07 Europe/Berlin] projects
-[06-Jul-2024 15:46:08 Europe/Berlin] projects
-[06-Jul-2024 15:46:08 Europe/Berlin] projects
-[06-Jul-2024 15:46:08 Europe/Berlin] projects
-[06-Jul-2024 15:46:08 Europe/Berlin] projects
-[06-Jul-2024 15:46:13 Europe/Berlin] projects
-[06-Jul-2024 15:46:21 Europe/Berlin] projects
-[06-Jul-2024 15:46:21 Europe/Berlin] projects
-[06-Jul-2024 15:46:21 Europe/Berlin] projects
-[06-Jul-2024 15:46:21 Europe/Berlin] projects
-[06-Jul-2024 15:46:23 Europe/Berlin] projects
-[06-Jul-2024 15:46:23 Europe/Berlin] projects
-[06-Jul-2024 15:46:23 Europe/Berlin] projects
-[06-Jul-2024 15:46:23 Europe/Berlin] projects
-[06-Jul-2024 15:46:28 Europe/Berlin] Home
-[06-Jul-2024 15:46:29 Europe/Berlin] projects
-[06-Jul-2024 15:46:29 Europe/Berlin] projects
-[06-Jul-2024 15:46:29 Europe/Berlin] projects
-[06-Jul-2024 15:46:29 Europe/Berlin] projects
-[06-Jul-2024 15:46:32 Europe/Berlin] Home
-[06-Jul-2024 15:46:33 Europe/Berlin] projects
-[06-Jul-2024 15:46:33 Europe/Berlin] projects
-[06-Jul-2024 15:46:33 Europe/Berlin] projects
-[06-Jul-2024 15:46:33 Europe/Berlin] projects
-[06-Jul-2024 15:46:38 Europe/Berlin] projects
-[06-Jul-2024 15:46:39 Europe/Berlin] projects
-[06-Jul-2024 15:46:39 Europe/Berlin] projects
-[06-Jul-2024 15:46:39 Europe/Berlin] projects
-[06-Jul-2024 15:46:42 Europe/Berlin] projects
-[06-Jul-2024 15:46:42 Europe/Berlin] projects
-[06-Jul-2024 15:46:42 Europe/Berlin] projects
-[06-Jul-2024 15:46:42 Europe/Berlin] projects
-[06-Jul-2024 15:48:00 Europe/Berlin] projects
-[06-Jul-2024 15:48:00 Europe/Berlin] projects
-[06-Jul-2024 15:48:00 Europe/Berlin] projects
-[06-Jul-2024 15:48:00 Europe/Berlin] projects
-[06-Jul-2024 16:12:10 Europe/Berlin] Home
-[06-Jul-2024 16:12:59 Europe/Berlin] img
-[06-Jul-2024 16:12:59 Europe/Berlin] piratenkarre_white.svg
-[06-Jul-2024 16:13:02 Europe/Berlin] img
-[06-Jul-2024 16:13:02 Europe/Berlin] piratenkarre_white.svg
-[06-Jul-2024 16:19:59 Europe/Berlin] Crew
-[06-Jul-2024 16:20:01 Europe/Berlin] Elektronische_requisiten
-[06-Jul-2024 16:20:07 Europe/Berlin] Projects
-[06-Jul-2024 16:20:07 Europe/Berlin] Projects
-[06-Jul-2024 16:20:07 Europe/Berlin] Projects
-[06-Jul-2024 16:20:07 Europe/Berlin] Projects
-[06-Jul-2024 16:20:10 Europe/Berlin] Impressum
-[06-Jul-2024 16:20:13 Europe/Berlin] Impressum
-[06-Jul-2024 16:20:14 Europe/Berlin] Impressum
-[06-Jul-2024 16:20:25 Europe/Berlin] Impressum.php
-[06-Jul-2024 16:20:34 Europe/Berlin] views
-[06-Jul-2024 16:20:34 Europe/Berlin] img
-[06-Jul-2024 16:20:34 Europe/Berlin] plattenbau_white.svg
-[06-Jul-2024 16:21:38 Europe/Berlin] Impressum
-[06-Jul-2024 16:21:41 Europe/Berlin] Crew
-[06-Jul-2024 16:22:32 Europe/Berlin] Crew
-[06-Jul-2024 16:22:34 Europe/Berlin] Home
-[06-Jul-2024 16:23:03 Europe/Berlin] Portfolio
-[06-Jul-2024 16:25:09 Europe/Berlin] admin
-[06-Jul-2024 16:36:46 Europe/Berlin] admin
-[06-Jul-2024 17:05:38 Europe/Berlin] admin
-[06-Jul-2024 17:05:53 Europe/Berlin] Home
-[06-Jul-2024 17:06:22 Europe/Berlin] admin
-[06-Jul-2024 17:06:24 Europe/Berlin] admin
-[06-Jul-2024 17:06:41 Europe/Berlin] admin
-[06-Jul-2024 17:06:42 Europe/Berlin] admin
-[06-Jul-2024 17:07:21 Europe/Berlin] admin
-[06-Jul-2024 17:07:22 Europe/Berlin] admin
-[06-Jul-2024 17:12:26 Europe/Berlin] admin
-[06-Jul-2024 17:13:15 Europe/Berlin] admin
-[06-Jul-2024 17:13:29 Europe/Berlin] admin
-[06-Jul-2024 17:13:31 Europe/Berlin] admin
-[06-Jul-2024 17:13:37 Europe/Berlin] admin
-[06-Jul-2024 17:14:11 Europe/Berlin] admin
-[06-Jul-2024 17:16:24 Europe/Berlin] admin
-[06-Jul-2024 17:17:14 Europe/Berlin] admin
-[06-Jul-2024 17:17:16 Europe/Berlin] admin
-[06-Jul-2024 17:17:30 Europe/Berlin] admin
-[08-Jul-2024 15:53:43 Europe/Berlin] Portfolio
-[11-Jul-2024 21:54:12 Europe/Berlin] admin
-[11-Jul-2024 21:54:15 Europe/Berlin] admin
-[11-Jul-2024 21:54:21 Europe/Berlin] admin
-[11-Jul-2024 21:54:29 Europe/Berlin] admin
-[11-Jul-2024 21:54:31 Europe/Berlin] admin
-[11-Jul-2024 21:54:56 Europe/Berlin] admin
-[11-Jul-2024 21:54:58 Europe/Berlin] admin
-[11-Jul-2024 21:55:02 Europe/Berlin] crew
-[11-Jul-2024 21:55:10 Europe/Berlin] 
-[11-Jul-2024 21:55:25 Europe/Berlin] 
-[11-Jul-2024 21:55:26 Europe/Berlin] 
-[11-Jul-2024 21:55:28 Europe/Berlin] 
-[11-Jul-2024 21:55:58 Europe/Berlin] 
-[11-Jul-2024 21:58:39 Europe/Berlin] admin
-[11-Jul-2024 21:58:42 Europe/Berlin] 
-[11-Jul-2024 21:59:06 Europe/Berlin] 
-[11-Jul-2024 21:59:07 Europe/Berlin] 
-[11-Jul-2024 21:59:13 Europe/Berlin] admin
-[11-Jul-2024 21:59:37 Europe/Berlin] admin
-[11-Jul-2024 22:01:18 Europe/Berlin] admin
-[11-Jul-2024 22:01:21 Europe/Berlin] 
-[11-Jul-2024 22:01:24 Europe/Berlin] projects
-[11-Jul-2024 22:01:24 Europe/Berlin] projects
-[11-Jul-2024 22:01:24 Europe/Berlin] projects
-[11-Jul-2024 22:01:24 Europe/Berlin] projects
-[11-Jul-2024 22:01:36 Europe/Berlin] 
-[11-Jul-2024 22:01:43 Europe/Berlin] admin.php
-[11-Jul-2024 22:01:49 Europe/Berlin] admin
-[11-Jul-2024 22:04:08 Europe/Berlin] admin
-[11-Jul-2024 22:04:26 Europe/Berlin] admin
-[11-Jul-2024 22:04:30 Europe/Berlin] Portfolio
-[11-Jul-2024 22:04:32 Europe/Berlin] Crew
-[11-Jul-2024 22:04:39 Europe/Berlin] admin
-[11-Jul-2024 22:05:02 Europe/Berlin] admin
-[11-Jul-2024 22:05:04 Europe/Berlin] Portfolio
-[11-Jul-2024 22:05:05 Europe/Berlin] Crew
-[11-Jul-2024 22:05:09 Europe/Berlin] admin
-[11-Jul-2024 22:05:45 Europe/Berlin] admin
-[11-Jul-2024 22:07:23 Europe/Berlin] admin
-[11-Jul-2024 22:07:54 Europe/Berlin] admin
-[11-Jul-2024 22:08:03 Europe/Berlin] admin
-[11-Jul-2024 22:31:29 Europe/Berlin] admin
-[11-Jul-2024 22:31:30 Europe/Berlin] admin
-[11-Jul-2024 22:31:31 Europe/Berlin] admin
-[11-Jul-2024 22:31:31 Europe/Berlin] admin
-[11-Jul-2024 22:31:32 Europe/Berlin] admin
-[11-Jul-2024 22:31:45 Europe/Berlin] admin
-[11-Jul-2024 22:31:47 Europe/Berlin] admin
-[11-Jul-2024 22:32:43 Europe/Berlin] admin
-[11-Jul-2024 22:32:47 Europe/Berlin] admin
-[11-Jul-2024 22:32:55 Europe/Berlin] admin
-[11-Jul-2024 22:32:56 Europe/Berlin] admin
-[11-Jul-2024 22:32:57 Europe/Berlin] admin
-[11-Jul-2024 22:33:19 Europe/Berlin] admin
-[11-Jul-2024 22:33:20 Europe/Berlin] admin
-[11-Jul-2024 22:33:20 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function homeOfPirates\Control\Admin::checkUserAndPass(), 0 passed in C:\xampp\htdocs\homeOfPirates\index.php on line 53 and exactly 2 expected in C:\xampp\htdocs\homeOfPirates\control\Admin.php:13
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->checkUserAndPass()
-#1 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 13
-[11-Jul-2024 22:49:07 Europe/Berlin] admin
-[11-Jul-2024 22:49:10 Europe/Berlin] admin
-[11-Jul-2024 22:49:10 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function homeOfPirates\Control\Admin::checkUserAndPass(), 0 passed in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 18 and exactly 2 expected in C:\xampp\htdocs\homeOfPirates\control\Admin.php:24
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass()
-#1 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#2 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 24
-[11-Jul-2024 22:49:39 Europe/Berlin] admin
-[11-Jul-2024 22:49:42 Europe/Berlin] admin
-[11-Jul-2024 22:49:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type homeOfPirates\Model\Users as array in C:\xampp\htdocs\homeOfPirates\control\Admin.php:49
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('', '')
-#2 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#3 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 49
-[11-Jul-2024 22:52:43 Europe/Berlin] admin
-[11-Jul-2024 22:52:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type homeOfPirates\Model\Users as array in C:\xampp\htdocs\homeOfPirates\control\Admin.php:49
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('', '')
-#2 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#3 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 49
-[11-Jul-2024 22:54:49 Europe/Berlin] admin
-[11-Jul-2024 22:54:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type homeOfPirates\Model\Users as array in C:\xampp\htdocs\homeOfPirates\control\Admin.php:49
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#2 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#3 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 49
-[11-Jul-2024 22:54:50 Europe/Berlin] admin
-[11-Jul-2024 22:54:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type homeOfPirates\Model\Users as array in C:\xampp\htdocs\homeOfPirates\control\Admin.php:49
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#2 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#3 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 49
-[11-Jul-2024 22:58:59 Europe/Berlin] admin
-[11-Jul-2024 22:58:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type homeOfPirates\Model\Users as array in C:\xampp\htdocs\homeOfPirates\control\Admin.php:49
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#2 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#3 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 49
-[11-Jul-2024 23:00:22 Europe/Berlin] admin
-[11-Jul-2024 23:00:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type homeOfPirates\Model\Users as array in C:\xampp\htdocs\homeOfPirates\control\Admin.php:50
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#2 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#3 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\control\Admin.php on line 50
-[11-Jul-2024 23:06:21 Europe/Berlin] admin
-[11-Jul-2024 23:06:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "homeOfPirates\Model\PDO" not found in C:\xampp\htdocs\homeOfPirates\model\Users.php:24
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(47): homeOfPirates\Model\Users->loadByUsername('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->checkUserForID('root')
-#2 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#3 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#4 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\model\Users.php on line 24
-[11-Jul-2024 23:10:50 Europe/Berlin] admin
-[11-Jul-2024 23:10:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "homeOfPirates\Model\PDO" not found in C:\xampp\htdocs\homeOfPirates\model\Users.php:24
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(46): homeOfPirates\Model\Users->loadByUsername('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->loadUser('root')
-#2 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#3 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#4 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\model\Users.php on line 24
-[11-Jul-2024 23:11:15 Europe/Berlin] admin
-[11-Jul-2024 23:11:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "homeOfPirates\Model\PDO" not found in C:\xampp\htdocs\homeOfPirates\model\Users.php:24
-Stack trace:
-#0 C:\xampp\htdocs\homeOfPirates\control\Admin.php(46): homeOfPirates\Model\Users->loadByUsername('root')
-#1 C:\xampp\htdocs\homeOfPirates\control\Admin.php(29): homeOfPirates\Control\Admin->loadUser('root')
-#2 C:\xampp\htdocs\homeOfPirates\control\Admin.php(18): homeOfPirates\Control\Admin->checkUserAndPass('root', 'root')
-#3 C:\xampp\htdocs\homeOfPirates\index.php(53): homeOfPirates\Control\Admin->verify()
-#4 {main}
-  thrown in C:\xampp\htdocs\homeOfPirates\model\Users.php on line 24
-[11-Jul-2024 23:12:36 Europe/Berlin] admin
-[11-Jul-2024 23:13:18 Europe/Berlin] admin
-[11-Jul-2024 23:13:24 Europe/Berlin] admin
-[11-Jul-2024 23:13:34 Europe/Berlin] admin
-[11-Jul-2024 23:13:42 Europe/Berlin] admin
+[20-Sep-2024 08:45:10 Europe/Berlin] 
+{
+    "tablename": "projekte",
+    "dbc": {},
+    "id": 1,
+    "datum": null,
+    "anzeige": "Archiv",
+    "titel": "\"Der Eisbär\"",
+    "beschreibung": "35 mm Kinofilm, 90 min. <br>\r\nDurchführung der gesamten Ausstattung <br>\r\ninklusive Art Department Crew",
+    "info": "<a href=\"http://mrbrownentertainment.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Mr. Brown Entertainment, Berlin</a> <br>\r\nRegie: Til Schweiger <br>\r\nKamera: Greg Littelwood, USA <br>\r\nSzenenbild: Thomas Kuhn <br>\r\nDarsteller: Til Schweiger, Karina Krawczyk, Benno Fürmann, Florian Lukas, Vladimir Weigl, Jürgen Tarrach, Ralf Herforth, Ralf Richter, Robert-Viktor Minich, Thierry van Werverke, Katharina Thalbach",
+    "kategorie": "Filmausstattung und Baubühne",
+    "keywords": "Film,Dekoration,Requisiten,Kinofilm",
+    "link": null,
+    "banner": null,
+    "bildpfad": "img/1-eisbaer",
+    "bilder": "e01.jpg | e02.jpg | e03.jpg | e04.jpg | e05.jpg | e06.jpg | e07.jpg | e08.jpg | e09.jpg | e10.jpg | e11.jpg | e12.jpg | e13.jpg | e14.jpg | e15.jpg | e16.jpg | e17.jpg | e18.jpg | e19.jpg | e20.jpg | e21.jpg | e22.jpg | e23.jpg | e24.jpg | e25.jpg | e26.jpg | e27.jpg | e28.jpg | e29.jpg | e30.jpg",
+    "img_alt": null,
+    "img_title": null
+}[20-Sep-2024 16:56:03 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 16:56:03 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 16:56:03 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:01:49 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:01:49 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:01:49 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:04:01 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/2-null_uhr): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:04:01 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/2-null_uhr): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:04:01 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:07:47 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/2-null_uhr): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:07:47 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/2-null_uhr): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:07:47 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:09:24 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:09:24 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:09:24 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:09:42 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:09:42 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:09:42 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:10:03 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:10:03 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:10:03 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:10:07 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:10:07 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:10:07 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:12:00 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:12:00 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:12:00 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:12:24 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:12:24 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:12:24 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:00 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:00 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:00 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:00 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:00 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:00 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:23 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:23 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:23 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:57 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:57 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:13:57 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:15:23 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:15:23 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:15:23 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:16:24 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:16:24 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:16:24 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:19:27 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:19:27 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:19:27 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:19:49 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:19:49 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:19:49 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:21:45 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:21:45 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:21:45 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:22:57 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:22:57 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:22:57 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:23:28 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:23:28 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:23:28 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:24:46 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/5-anna_h): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:24:46 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/5-anna_h): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:24:46 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:29:20 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:29:20 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:29:20 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:29:21 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:29:21 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:29:21 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:32:05 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:32:05 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:32:05 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:32:50 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:32:50 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:32:50 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:33:17 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:33:17 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:33:17 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:34:33 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:34:33 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:34:33 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:35:36 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:35:36 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:35:36 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:36:14 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:36:14 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:36:14 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:16 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:16 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:16 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:39 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:39 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:39 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:53 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:53 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:37:53 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:40:39 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:40:39 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:40:39 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:45:22 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:45:22 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:45:22 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:46:20 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:46:20 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/1-eisbaer): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:46:20 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:47:11 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/3-marmor_stein): Das System kann die angegebene Datei nicht find (code: 2) in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:47:11 Europe/Berlin] PHP Warning:  scandir(C:\xampp\htdocs\homeOfPirates\config\..\img/3-marmor_stein): Failed to open directory: No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65
+[20-Sep-2024 17:47:11 Europe/Berlin] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\homeOfPirates\control\admin\Admin_Projects.php on line 65

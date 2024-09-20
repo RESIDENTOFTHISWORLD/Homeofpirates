@@ -1,8 +1,7 @@
-
-RewriteEngine on
-# Check 1 : is not a dir
+RewriteEngine On
+# Check 1 : if is not a existing dir
 RewriteCond %{REQUEST_FILENAME} !-d
-# Check 1 : is not a file
+# Check 1 : if is not a existing file
 RewriteCond %{REQUEST_FILENAME} !-f
 # Redirect all to index.php
-RewriteRule . index.php [L]
+RewriteRule  . http://localhost/homeofpirates [R,L]

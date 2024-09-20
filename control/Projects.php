@@ -1,7 +1,10 @@
 <?php
 
 namespace homeOfPirates\Control;
+
+use homeOfPirates\config\Config;
 use homeOfPirates\Model\Projects as MProjects;
+
 class Projects extends Base
 {
     public $title = "Projekte";
@@ -9,17 +12,12 @@ class Projects extends Base
     public $projectList = [];
 
 
-
-
-
-
-
     public function getList()
     {
         $operator = $this->getRequestParameter("operator");
         $year = $this->getRequestParameter("year");
         $category = $this->getRequestParameter("category");
-        switch ($operator){
+        switch ($operator) {
             case "SM":
                 $operator = "<";
                 break;
@@ -38,7 +36,7 @@ class Projects extends Base
         //todo STOP injection right here after getting this list thing to work
         if ($year !== "") {
             $oProjects = new MProjects();
-            $oProjects = $oProjects->loadList("kategorie = '".$category ."' AND datum " . $operator . " " . $year ." AND datum IS NOT NULL");
+            $oProjects = $oProjects->loadList("kategorie = '" . $category . "' AND datum " . $operator . " " . $year . " AND datum IS NOT NULL");
             foreach ($oProjects as $row) {
                 $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info)];
             }
@@ -51,21 +49,32 @@ class Projects extends Base
             }
             echo json_encode($this->projectList);
         }
-//            $oProjects = new Projects();
-//            $oProjects = $oProjects->loadList("");
-//            $oCat_rootcat = $oCat_rootcat->loadList("");
+    }
+
+    public function getPictures()
+    {
+        $projectID = $this->getRequestParameter("id");
+        //todo STOP injection right here after getting this list thing to work
+        $oProjects = new MProjects();
+        $oProjects->loadById($projectID);
+        $mConfig = new Config();
+
+        $handle = opendir($oProjects->bildpfad);
+        $pictureArray = [];
+        while ($file = readdir($handle)) {
+            if ($file !== '.' && $file !== '..') {
+                $pictureArray[] .= $oProjects->bildpfad."/".$file;
+            }
+        }
+//        this works with the previous images in database underneath
+//        $pictureArray = [];
 //
-//
-//            foreach ($oCat_rootcat as $row) {
-//                if($row->root_category_id == $year){
-//                    foreach($oProjects as $oProject){
-//                        if($oProject->id == $row->id) {
-//                            $this->projectList[] = ["id" => $oProject->id, "name" => $oProject->name];
-//                        }
-//                    }
-//                }
+//        if (!empty($oProjects->bilder)) {
+//            $pictureArray = explode("|", $oProjects->bilder);
+//            foreach ($pictureArray as $key => $pic) {
+//                $pictureArray[$key] = $oProjects->bildpfad . "/" . trim($pic);
 //            }
-
-
+//        }
+        echo json_encode($pictureArray);
     }
 }

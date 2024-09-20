@@ -27,8 +27,13 @@ class Base
         $config = new Config();
         $controller = $this;
         include $config->getProjectPath() . "views/header.php";
+        include $config->getProjectPath() . "views/navbar.php";
+        include $config->getProjectPath() . "views/noscript.php";
+
         include $config->getProjectPath() . "views/" . $this->template;
+
         include $config->getProjectPath() . "views/footer.php";
+
     }
 
 

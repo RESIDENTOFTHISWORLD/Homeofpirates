@@ -1,30 +1,78 @@
-<?php
-include "header.php";
-const event = "6";
-const film = "1";
-const messe = "3";
-const promo = "5";
-function fetchData($kategorie, $anzeige, $dblink) {
-  $query = ("SELECT * FROM projekte WHERE kategorie = $kategorie AND anzeige = $anzeige ORDER BY datum DESC");
-  $html = "";
-  $projectid ="";
-  foreach ($dblink->query($query) as $project) {
-    $html .= "	<div class='box'>\n";
-    $html .= "    <h2>$project[titel]</h2>\n";
-    $html .= "    <p>$project[beschreibung]</p>\n";
-    $html .= "    <p>$project[info]</p>\n";
-    $html .= "	</div>\n";
-    $projectid = "$project[id]";
-    if (isset($project['bilder']))
-  		$html .= "Bilder\n";
-  }
-echo "$projectid";
-return $html;
-}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-$kategorie = film;
-$anzeige = 1;
-echo "<div class='container' id='event'>\n";
-echo fetchData($kategorie, $anzeige, $dblink);
-echo "</div>\n"; // closing div.container
-?>
+<section class="carousel">
+
+    <div class="container-fluid px-0">
+        <div class="row">
+            <div class="col-12">
+                <div class="carousel__wrapper">
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/1/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/1/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/2/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/2/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/3/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/3/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/4/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/4/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/5/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/5/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/picsum/200/300');">
+                        </div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/picsum/200/300');">
+                        </div>
+                    </div>
+
+                    <!--#### repeat ####-->
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/1/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/1/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/2/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/2/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/3/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/3/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/4/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/4/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/5/200/300');"></div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/5/200/300');"></div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/picsum/200/300');">
+                        </div>
+                        <div class="carousel__image" style="background-image: url('https://picsum.photos/seed/picsum/200/300');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
