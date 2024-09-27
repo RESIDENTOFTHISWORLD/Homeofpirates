@@ -37,6 +37,11 @@ class Config
     public $db_pass = "";
 
     /**
+     * @var string
+     */
+    public $sessionLifeTime = 99999;//1800
+
+    /**
      * der Konstruktor führt die setProjectPath methode aus
      * @return void
      */

@@ -22,7 +22,18 @@ class Admin_Projects extends Admin
 //        parent::render();
 //    }
 
+    public function uploadFiles()
+{
+    $picturePath = $this->getRequestParameter("picturePath");
+    $config = new Config();
+    $dir = $config->projectPath . $picturePath;
 
+
+    foreach ($_FILES as $file){
+        $typeAndName = explode(".",$file["name"]);
+        move_uploaded_file($file["tmp_name"],$dir."/".md5($typeAndName[0]).".".$typeAndName[1]);
+    }
+}
     public function loadProjects()
     {
         if (!$this->verifyOnLoad()) {
@@ -62,6 +73,10 @@ class Admin_Projects extends Admin
         $config = new Config();
         $oProject->aImgPaths = [];
         $dir = $config->projectPath . $oProject->bildpfad;
+        if(!file_exists($dir)){
+            $oProject->bildpfadOld = $oProject->bildpfad;
+        };
+
         if ($aFiles = scandir($dir)) {
             foreach ($aFiles as $file) {
                 if (file_exists($dir."/".$file) && $file != "." && $file != "..") {
@@ -72,4 +87,66 @@ class Admin_Projects extends Admin
         echo json_encode($oProject);
         return true;
     }
+
+    public function updateValue()
+    {
+        $aProjectData=[];
+        $aProjectData["id"] = $this->getRequestParameter("id");
+        $aProjectData[$this->getRequestParameter("column")] = $this->getRequestParameter("value");
+
+        ob_start();
+        var_dump($aProjectData);
+
+        error_log(ob_get_contents());
+        ob_end_clean();
+        //        $aData["admin_id"] = $this->removeInjectablesFromStrings($admin->id); todo Use USER HYARCHY
+        $oProjects = new Projects();
+        if (!empty($aProjectData["id"])) {
+            $oProjects->loadById($aProjectData["id"]);
+        }
+        $oProjects->assign($aProjectData);
+        if($oProjects->save()){
+            echo $oProjects->id;
+            return true;
+        }
+        return false;
+    }
+
+    public function save()
+    {
+        $aProjectDataRaw = $this->getRequestParameter("projectData");
+
+        $aProjectData=[];
+        foreach ($aProjectDataRaw as $columnInput) {
+            $name = str_replace(["projectData[","]"],"",$columnInput["name"]);
+            $aProjectData[$name] = $columnInput["value"];
+        }
+
+        //        $aData["admin_id"] = $this->removeInjectablesFromStrings($admin->id); todo Use USER HYARCHY
+        $oProjects = new Projects();
+        if (!empty($aProjectData["id"])) {
+            $oProjects->loadById($aProjectData["id"]);
+        }
+        $oProjects->assign($aProjectData);
+        if($oProjects->save()){
+            var_dump($aProjectData);
+
+            error_log(ob_get_contents());
+            ob_end_clean();
+            echo $oProjects->id;
+            return true;
+        }
+        return false;
+    }
+
+    public function delete()
+    {
+        $aProjectData = $this->getRequestParameter("projectData");
+        foreach ($aProjectData as $index => $value) {
+            $aProjectData[$this->removeInjectablesFromStrings($index)] = $this->removeInjectablesFromStrings($value);
+        }
+        $Projects = new Projects();
+        $Projects->delete($this->removeInjectablesFromStrings($aProjectData["id"]));
+    }
+
 }

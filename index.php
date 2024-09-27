@@ -4,10 +4,23 @@ error_reporting(E_ALL);
 ini_set('display_errors', false);
 require __DIR__ . '/autoload.php';
 $development = true; // this has to be set to false if on a real server
-session_start();
+
 global $config;
 $projectPath = $config->projectPath;
 
+session_start();
+
+if(empty($_SESSION['expire'])){
+    $_SESSION['expire'] = time() + $config->sessionLifeTime;
+}
+
+
+if(time() > $_SESSION['expire'])
+{
+    session_unset();
+    session_destroy();
+    error_log("SessionExpired");
+}
 
 $defaultAction = "render";
 $defaultLang = "GER";

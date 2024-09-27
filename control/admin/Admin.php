@@ -20,7 +20,7 @@ class Admin extends Base
             if ($this->verifyOnLoad()) {
                 $this->render_Admin();
             } else {
-                header("location:https://" . $config->domain . "/Home");
+                header("location:".$config->protocol. $config->domain . "/Admin");
             }
         } else {
             $this->render_Admin();
@@ -39,7 +39,7 @@ class Admin extends Base
 
     public function verifyOnLoad()
     {
-        if (!isset($_SESSION["username"]) && isset($_SESSION["pass"])) {
+        if (!isset($_SESSION["username"]) && !isset($_SESSION["pass"])) {
             return false;
         }
         if ($this->checkUserAndPass($_SESSION["username"], $_SESSION["pass"])) {

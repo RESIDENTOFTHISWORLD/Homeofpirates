@@ -71,20 +71,24 @@ class Base extends \stdClass {
         return $success;
     }
 
-
     public function save()
     {
         if (isset($this->id) && $this->id) {
-            $this->update();
+            if($this->update()){
+                return true;
+            }
         } else {
-            $this->insert();
+            if($this->insert()){
+                return true;
+            }
         }
+        return false;
     }
 
     /**
      * Insert new row
      *
-     * @return void
+     * @return
      */
     protected function insert()
     {
@@ -106,14 +110,20 @@ class Base extends \stdClass {
             }
         }
         $query = "INSERT INTO " . $this->getTableName() . " (" . $keys . ") VALUES (" . $sValues . ")";
+        error_log($query);
         $stmt = $this->dbc->prepare($query);
-        $stmt->execute($param);
+        if($stmt->execute($param)){
+          $this->id = $this->dbc->lastInsertId();
+
+          return true;
+        }
+        return false;
     }
 
     /**
      * Update a row
      *
-     * @return void
+     * @return bool
      */
     protected function update()
     {
@@ -133,8 +143,13 @@ class Base extends \stdClass {
         }
         $query .= " WHERE id = :id";
         $param[":id"] = $this->id;
+        error_log($query);
+
         $stmt = $this->dbc->prepare($query);
-        $stmt->execute($param);
+        if($stmt->execute($param)){
+            return true;
+        }
+        return false;
     }
 
     /**
