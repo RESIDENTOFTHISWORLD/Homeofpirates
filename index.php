@@ -86,6 +86,3 @@ if (!empty($request_action) && !method_exists($controller, $request_action)) {
 
 $controller->$request_action();
 
-
-// todo make URL readable http://localhost/topos/?ctrl=CategoryList&actn=render = http://localhost/topos/CategoryList
-// this will help #https://stackoverflow.com/questions/16388959/url-rewriting-with-php

@@ -230,7 +230,6 @@ $page = "projekte";
             for (i = 0; i < slide.length; i++) {
                 $(".projectPictures_" + id).eq(i).hide();
             }
-
             $(".projectPictures_" + id).eq(slideIndex).show();
         }
 

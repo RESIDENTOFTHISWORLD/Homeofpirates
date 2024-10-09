@@ -9,19 +9,16 @@
         </div>
         <div class="container">
             <div class="image">
-                <!-- todo fragment auf #event bringen -->
                 <a href="projects#event" onclick="submitMainForm('Projects','render')"><!-- href="projects.php#Event"-->
                     <img src="img/diver_white.svg"/>
                 </a>
             </div>
             <div class="image">
-                <!-- todo fragment auf #Film bringen -->
                 <a href="projects#film" onclick="submitMainForm('Projects','render')"><!-- href="projects.php#Film"-->
                     <img src="img/piratenkarre_white.svg"/>
                 </a>
             </div>
             <div class="image">
-                <!-- todo fragment auf #Messe bringen -->
                 <a  href="projects#messe" onclick="submitMainForm('Projects','render')"> <!-- href="projects.php#messe"-->
                     <img src="img/pinguin_white.svg"/>
                 </a>

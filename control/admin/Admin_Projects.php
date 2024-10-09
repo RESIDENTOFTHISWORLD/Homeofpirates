@@ -23,17 +23,18 @@ class Admin_Projects extends Admin
 //    }
 
     public function uploadFiles()
-{
-    $picturePath = $this->getRequestParameter("picturePath");
-    $config = new Config();
-    $dir = $config->projectPath . $picturePath;
+    {
+        $picturePath = $this->getRequestParameter("picturePath");
+        $config = new Config();
+        $dir = $config->projectPath . $picturePath;
 
 
-    foreach ($_FILES as $file){
-        $typeAndName = explode(".",$file["name"]);
-        move_uploaded_file($file["tmp_name"],$dir."/".md5($typeAndName[0]).".".$typeAndName[1]);
+        foreach ($_FILES as $file) {
+            $typeAndName = explode(".", $file["name"]);
+            move_uploaded_file($file["tmp_name"], $dir . "/" . md5($typeAndName[0]) . "." . $typeAndName[1]);
+        }
     }
-}
+
     public function loadProjects()
     {
         if (!$this->verifyOnLoad()) {
@@ -71,16 +72,17 @@ class Admin_Projects extends Admin
         $projectID = $this->getRequestParameter("projectId");
         $oProject->loadById($projectID);
         $config = new Config();
-        $oProject->aImgPaths = [];
+        //DIR CHECK
         $dir = $config->projectPath . $oProject->bildpfad;
-        if(!file_exists($dir)){
+        if (!file_exists($dir)) {
             $oProject->bildpfadOld = $oProject->bildpfad;
-        };
+        }
 
+        $oProject->aImgPaths = [];
         if ($aFiles = scandir($dir)) {
             foreach ($aFiles as $file) {
-                if (file_exists($dir."/".$file) && $file != "." && $file != "..") {
-                    $oProject->aImgPaths[] .= $config->protocol.$config->domain . "/" . $oProject->bildpfad."/".$file;
+                if (file_exists($dir . "/" . $file) && $file != "." && $file != "..") {
+                    $oProject->aImgPaths[] .= $config->protocol . $config->domain . "/" . $oProject->bildpfad . "/" . $file;
                 }
             }
         }
@@ -88,9 +90,44 @@ class Admin_Projects extends Admin
         return true;
     }
 
+    public function setNewPath()
+    {
+        $aProjectData = [];
+        $aProjectData["id"] = $this->getRequestParameter("id");
+
+        $newPath = $this->getRequestParameter("value");
+
+        $config = new Config();
+
+        //DIR CHECK
+        $dir = $config->projectPath . $newPath;
+        if (file_exists($dir)) {
+            echo "exists";
+            return false;
+        } else {
+            if (mkdir($dir, 0700, true)) {
+                $oProjects = new Projects();
+                $oProjects->loadById($aProjectData["id"]);
+                $aProjectData["bildpfad"] = $newPath;
+                $oProjects->assign($aProjectData);
+                if ($oProjects->save()) {
+                    echo "created";
+                    return true;
+                } else {
+                    echo "invalid";
+                    return false;
+                }
+            } else {
+                echo "invalid";
+                return false;
+            }
+        }
+
+    }
+
     public function updateValue()
     {
-        $aProjectData=[];
+        $aProjectData = [];
         $aProjectData["id"] = $this->getRequestParameter("id");
         $aProjectData[$this->getRequestParameter("column")] = $this->getRequestParameter("value");
 
@@ -105,7 +142,7 @@ class Admin_Projects extends Admin
             $oProjects->loadById($aProjectData["id"]);
         }
         $oProjects->assign($aProjectData);
-        if($oProjects->save()){
+        if ($oProjects->save()) {
             echo $oProjects->id;
             return true;
         }
@@ -116,9 +153,9 @@ class Admin_Projects extends Admin
     {
         $aProjectDataRaw = $this->getRequestParameter("projectData");
 
-        $aProjectData=[];
+        $aProjectData = [];
         foreach ($aProjectDataRaw as $columnInput) {
-            $name = str_replace(["projectData[","]"],"",$columnInput["name"]);
+            $name = str_replace(["projectData[", "]"], "", $columnInput["name"]);
             $aProjectData[$name] = $columnInput["value"];
         }
 
@@ -128,7 +165,7 @@ class Admin_Projects extends Admin
             $oProjects->loadById($aProjectData["id"]);
         }
         $oProjects->assign($aProjectData);
-        if($oProjects->save()){
+        if ($oProjects->save()) {
             var_dump($aProjectData);
 
             error_log(ob_get_contents());
@@ -139,14 +176,14 @@ class Admin_Projects extends Admin
         return false;
     }
 
-    public function delete()
-    {
-        $aProjectData = $this->getRequestParameter("projectData");
-        foreach ($aProjectData as $index => $value) {
-            $aProjectData[$this->removeInjectablesFromStrings($index)] = $this->removeInjectablesFromStrings($value);
-        }
-        $Projects = new Projects();
-        $Projects->delete($this->removeInjectablesFromStrings($aProjectData["id"]));
-    }
+//    public function delete()
+//    {
+//        $aProjectData = $this->getRequestParameter("projectData");
+//        foreach ($aProjectData as $index => $value) {
+//            $aProjectData[$this->removeInjectablesFromStrings($index)] = $this->removeInjectablesFromStrings($value);
+//        }
+//        $Projects = new Projects();
+//        $Projects->delete($this->removeInjectablesFromStrings($aProjectData["id"]));
+//    }
 
 }
