@@ -78,7 +78,7 @@ $controller_file = rtrim($controller_file,"/");
 //        break;
 //    }
 //}
-0
+
 //todo fix rerouting segmented
 //if (empty($request_control) && !empty($controller_file) && file_exists("{$controller_dir}{$controller_file}.php")) {
 //    $classname = "TAL\\Control\\{$namespaceURL}";
