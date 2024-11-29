@@ -1,10 +1,10 @@
 <?php
 
-namespace homeOfPirates\Control\Admin;
+namespace Homeofpirates\Control\Admin;
 
 
-use homeOfPirates\config\Config;
-use homeOfPirates\Model\Projects;
+use Homeofpirates\Config\Config;
+use Homeofpirates\Model\Projects;
 
 class Admin_Projects extends Admin
 {
@@ -46,10 +46,10 @@ class Admin_Projects extends Admin
         $oProjects = new Projects();
         //todo with UsersHyarchy
         if (isset($_REQUEST["searchTerm"])) {
-//            $aProjects = $oProjects->loadList("admin_id = '" . $admin->id . "' AND (  username COLLATE UTF8_GENERAL_CI LIKE '%" . $searchTerm . "%' OR name COLLATE UTF8_GENERAL_CI LIKE '%" . $searchTerm . "%')");
+//            $aProjects = $oProjects->loadList("admin_id = '" . $Admin->id . "' AND (  username COLLATE UTF8_GENERAL_CI LIKE '%" . $searchTerm . "%' OR name COLLATE UTF8_GENERAL_CI LIKE '%" . $searchTerm . "%')");
             $aProjects = $oProjects->loadList("titel  LIKE '%" . $searchTerm . "%' OR kategorie  LIKE '%" . $searchTerm . "%' OR datum  LIKE '%" . $searchTerm . "%'");
         } else {
-//            $aProjects = $oProjects->loadList("admin_id = '" . $admin->id . "'");
+//            $aProjects = $oProjects->loadList("admin_id = '" . $Admin->id . "'");
             $aProjects = $oProjects->loadList();
         }
 
@@ -136,7 +136,7 @@ class Admin_Projects extends Admin
 
         error_log(ob_get_contents());
         ob_end_clean();
-        //        $aData["admin_id"] = $this->removeInjectablesFromStrings($admin->id); todo Use USER HYARCHY
+        //        $aData["admin_id"] = $this->removeInjectablesFromStrings($Admin->id); todo Use USER HYARCHY
         $oProjects = new Projects();
         if (!empty($aProjectData["id"])) {
             $oProjects->loadById($aProjectData["id"]);
@@ -159,7 +159,7 @@ class Admin_Projects extends Admin
             $aProjectData[$name] = $columnInput["value"];
         }
 
-        //        $aData["admin_id"] = $this->removeInjectablesFromStrings($admin->id); todo Use USER HYARCHY
+        //        $aData["admin_id"] = $this->removeInjectablesFromStrings($Admin->id); todo Use USER HYARCHY
         $oProjects = new Projects();
         if (!empty($aProjectData["id"])) {
             $oProjects->loadById($aProjectData["id"]);

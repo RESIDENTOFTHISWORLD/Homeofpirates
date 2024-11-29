@@ -1,8 +1,8 @@
 <?php
 
-namespace homeOfPirates\Control;
+namespace Homeofpirates\Control;
 
-use homeOfPirates\config\Config;
+use Homeofpirates\Config\Config;
 
 class Base
 {

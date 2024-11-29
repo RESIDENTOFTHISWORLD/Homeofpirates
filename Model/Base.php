@@ -1,9 +1,9 @@
 <?php
 
-namespace homeOfPirates\Model;
+namespace Homeofpirates\Model;
 
 use PDO;
-use homeOfPirates\Classes\Database;
+use Homeofpirates\Class\Database;
 class Base extends \stdClass {
     public $tablename = false;
 

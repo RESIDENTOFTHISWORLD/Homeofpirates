@@ -274,7 +274,11 @@
                 //LOADING IMAGES INTO PREVIEW
                 var img = ""
                 $.each(object["aImgPaths"], function (index, value) {
-                    img = img + '<img id="picID_' + index + '" class="details_imgPreviewPic" src="' + value + '" onmouseenter="scalePic(this);" onmouseleave="scalePic(this);">';
+                    img = img + '<div style="flex-direction:column">' +
+                        '<img id="picID_' + index + '" class="details_imgPreviewPic"  src="' + value + '" onmouseenter="scalePic(this);" onmouseleave="scalePic(this);">' +
+                        '<button class="details_imgPreviewPic" style="background-image:url(\'http://<?=$config->domain;?>/img/icons/xCloseIcon.png\')">' +
+                        '</div>';
+
                 });
                 $("#details_imgPreview").html(img);
 

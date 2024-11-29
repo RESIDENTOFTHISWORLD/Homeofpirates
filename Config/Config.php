@@ -1,13 +1,13 @@
 <?php
 
-namespace homeOfPirates\config;
+namespace Homeofpirates\Config;
 
 class Config
 {
     /**
      * @var string
      */
-    public $domain = "localhost/homeOfPirates";
+    public $domain = "localhost/Homeofpirates";
     public $protocol = "http://";
 //todo change when put on server
     /**

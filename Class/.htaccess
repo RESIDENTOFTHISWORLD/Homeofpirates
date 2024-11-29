@@ -4,4 +4,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Check 1 : if is not a existing file
 RewriteCond %{REQUEST_FILENAME} !-f
 # Redirect all to index.php
-RewriteRule  . http://localhost/homeofpirates [R,L]
+RewriteRule  . index.php [L]

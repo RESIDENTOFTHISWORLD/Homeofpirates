@@ -1,11 +1,11 @@
 <?php
 
-namespace homeOfPirates\Control\Admin;
+namespace Homeofpirates\Control\Admin;
 
 
-use homeOfPirates\config\Config;
-use homeOfPirates\Control\Base;
-use homeOfPirates\Model\Users as MUsers;
+use Homeofpirates\Config\Config;
+use Homeofpirates\Control\Base;
+use Homeofpirates\Model\Users as MUsers;
 
 class Admin extends Base
 {
@@ -20,7 +20,7 @@ class Admin extends Base
             if ($this->verifyOnLoad()) {
                 $this->render_Admin();
             } else {
-                header("location:".$config->protocol. $config->domain . "/Admin");
+                header("location:".$config->protocol. $config->domain . "/Admin/Admin_Login");
             }
         } else {
             $this->render_Admin();

@@ -1,4 +1,4 @@
-<?php if ($controller->template !="admin/admin_login.php"){ ?>
+<?php if ($controller->template !="Admin/admin_login.php"){ ?>
 <a class="HomeButton"  href="http://<?=$config->domain;?>" >
         <img  class='homeButton' src='http://<?=$config->domain;?>/img/icons/home.svg'/>
 </a>

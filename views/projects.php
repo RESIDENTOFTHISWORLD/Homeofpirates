@@ -73,7 +73,7 @@ $page = "projekte";
 
                 let targetParent = element.nextElementSibling;
                 let target = targetParent.firstElementChild;
-                getProjects(year, operator, category).then(function (result) {
+                getProjects(year, operator, category,limit,offset).then(function (result) {
                     $(target).html(result);
                     showMore(element);
                 });
@@ -82,8 +82,8 @@ $page = "projekte";
             }
         }
 
-        function getList(element, year, operator, category) {
-            getProjects(year, operator, category).then(function (result) {
+        function getList(element, year, operator, category,limit = false,offset=false) {
+            getProjects(year, operator, category,limit,offset).then(function (result) {
                 $(element).html(result);
             });
         }
@@ -107,7 +107,7 @@ $page = "projekte";
             $("#modal_" + id).toggle();
         }
 
-        function getProjects(year, operator, category) {
+        function getProjects(year, operator, category,limit = false,offset = false) {
             return new Promise((result) => {
                 $.ajax({
                     url: "",
@@ -117,7 +117,10 @@ $page = "projekte";
                         ctrl: "Projects",
                         operator: operator,
                         year: year,
-                        category: category
+                        category: category,
+                        limit: limit,
+                        offset: offset,
+
                     },
                     success: function (response) {
                         var elemtentArray = JSON.parse(response);
@@ -128,9 +131,21 @@ $page = "projekte";
                                 '<div class="box">' +
                                 '<h2>' + value["titel"] + '</h2>' +
                                 '<p>' + value["beschreibung"] + '</p>' +
-                                '<p>' + value["info"] + '</p>' +
-                                '<button class="picPreview" onclick="openModal(' + value["id"] + ')">Show Pictures</button>' +
-                                '<div id="' + value["id"] + '">' +
+                                '<p>' + value["info"] + '</p>';
+
+
+                             //todo Einbettung Instagram/YouTube
+                            // if(value["picture_modal"]){
+                            //     list = list + '<button class="picPreview" onclick="openModal(' + value["id"] + ')">Show Pictures</button>';
+                            // }
+                            // if(value["picture_modal"]){
+                            //     list = list + '<button class="picPreview" onclick="openModal(' + value["id"] + ')">Show Pictures</button>';
+                            // }
+                             //todo Bilder anzeigen Button nur wenn Bilder vorhanden
+                            if(value["showlink"]){
+                                list = list + '<button class="picPreview" onclick="openModal(' + value["id"] + ')">Show Pictures</button>';
+                            }
+                            list = list +'<div id="' + value["id"] + '">' +
                                 '</div>' +
                                 '</div>';
                         });

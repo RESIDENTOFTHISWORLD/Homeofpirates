@@ -1,44 +1,28 @@
 <?php
-require_once  __DIR__ ."/". 'config/Config.php';
-$config = new \homeOfPirates\config\Config();
-$projectPath = $config->projectPath;
-$dirArray= [
-    "class/",
-    "model/",
-    "control/",
-    "control/admin/"
-];
-require_once "control\Base.php";
-require_once "model\Base.php";
+// PSR-4 Autoloader
+spl_autoload_register(
+    function ($class) {
+        // The root namespace for the project
+        $namespaceRoot = 'Homeofpirates\\';
 
-function requireFilesRecursively($projectPath,$directory)
-{
-    if (is_dir($projectPath . $directory)) {
-        $fileArray = scandir($projectPath . $directory);
-        foreach ($fileArray as $file) {
-            if ($file !== "Base.php" && $file !== ".htaccess" ) {
-                if (filetype($projectPath . $directory . $file) != "dir") {
-//                    error_log($projectPath . $directory . $file);
-                    require_once $projectPath . $directory . $file;
-                }
+        // The base directory for your project
+        $baseDir = __DIR__ . '/';
+
+        // Check if the class belongs to the TAL namespace
+        if (str_starts_with($class, $namespaceRoot)) {
+            // Remove the namespace root part
+            $relativeClass = substr($class, strlen($namespaceRoot));
+
+            // Replace namespace separators with directory separators
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+
+            // Check if the file exists and require it
+            if (file_exists($file)) {
+                require $file;
+            } else {
+                // Log and throw an error if the file is not found
+                error_log("Autoload failed: {$file} not found for class {$class}");
+                throw new Exception("Class {$class} not found");
             }
         }
-    }
-}
-
-foreach($dirArray as $dir) {
-    if (is_dir($projectPath . $dir)) {
-        $fileArray = scandir($projectPath . $dir);
-        foreach ($fileArray as $file) {
-            if ($file !== "Base.php" && $file !== ".htaccess" && $file != "." && $file != ".." ) {
-//                if (filetype($projectPath . $dir . $file) == "dir" ) {
-////                    error_log($projectPath.$dir.$file);
-//                    requireFilesRecursively($projectPath,$dir.$file."/");
-//                }else
-                    if (filetype($projectPath . $dir . $file) != "dir" ){
-                    require_once $projectPath . $dir . $file;
-                }
-            }
-        }
-    }
-}
+    },true);

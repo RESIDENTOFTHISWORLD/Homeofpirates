@@ -1,6 +1,6 @@
 <?php
 
-namespace homeOfPirates\Model;
+namespace Homeofpirates\Model;
 
 class Projects extends Base
 {

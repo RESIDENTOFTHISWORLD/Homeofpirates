@@ -9,23 +9,23 @@
         </div>
         <div class="container">
             <div class="image">
-                <a href="projects#event" onclick="submitMainForm('Projects','render')"><!-- href="projects.php#Event"-->
+                <a href="projects#Event" onclick="submitMainForm('Projects','render')"><!-- href="projects.php#Event"-->
                     <img src="img/diver_white.svg"/>
                 </a>
             </div>
             <div class="image">
-                <a href="projects#film" onclick="submitMainForm('Projects','render')"><!-- href="projects.php#Film"-->
+                <a href="projects#Film" onclick="submitMainForm('Projects','render')"><!-- href="projects.php#Film"-->
                     <img src="img/piratenkarre_white.svg"/>
                 </a>
             </div>
             <div class="image">
-                <a  href="projects#messe" onclick="submitMainForm('Projects','render')"> <!-- href="projects.php#messe"-->
+                <a  href="projects#Messe" onclick="submitMainForm('Projects','render')"> <!-- href="projects.php#messe"-->
                     <img src="img/pinguin_white.svg"/>
                 </a>
             </div>
             <div class="image">
 
-                <a  href="projects#promotion" onclick="submitMainForm('Projects','render')">  <!-- href="projects.php#promotion"-->
+                <a  href="projects#Promotion" onclick="submitMainForm('Projects','render')">  <!-- href="projects.php#promotion"-->
                     <img src="img/lotsenschiff_white.svg"/>
                 </a>
             </div>

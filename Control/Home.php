@@ -1,6 +1,6 @@
 <?php
 
-namespace homeOfPirates\Control;
+namespace Homeofpirates\Control;
 
 class Home extends Base
 {

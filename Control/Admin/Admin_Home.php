@@ -1,6 +1,6 @@
 <?php
 
-namespace homeOfPirates\Control\Admin;
+namespace Homeofpirates\Control\Admin;
 
 
 class Admin_Home extends Admin

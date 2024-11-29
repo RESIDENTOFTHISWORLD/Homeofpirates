@@ -1,8 +1,8 @@
 <?php
 
-namespace homeOfPirates\Classes;
+namespace Homeofpirates\Class;
 
-use homeOfPirates\Config\Config;
+use Homeofpirates\Config\Config;
 use PDO;
 
 class Database

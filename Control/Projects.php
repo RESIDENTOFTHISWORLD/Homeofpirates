@@ -1,9 +1,9 @@
 <?php
 
-namespace homeOfPirates\Control;
+namespace Homeofpirates\Control;
 
-use homeOfPirates\config\Config;
-use homeOfPirates\Model\Projects as MProjects;
+use Homeofpirates\Config\Config;
+use Homeofpirates\Model\Projects as MProjects;
 
 class Projects extends Base
 {
@@ -17,6 +17,8 @@ class Projects extends Base
         $operator = $this->getRequestParameter("operator");
         $year = $this->getRequestParameter("year");
         $category = $this->getRequestParameter("category");
+        $limit = $this->getRequestParameter("limit");
+        $offset = $this->getRequestParameter("offset");
         switch ($operator) {
             case "SM":
                 $operator = "<";
@@ -38,18 +40,19 @@ class Projects extends Base
             $oProjects = new MProjects();
             $oProjects = $oProjects->loadList("kategorie = '" . $category . "' AND datum " . $operator . " " . $year . " AND datum IS NOT NULL");
             foreach ($oProjects as $row) {
-                $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info)];
+                $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info), "showlink" => (is_dir($row->bildpfad)) ? "show": false];
             }
             echo json_encode($this->projectList);
         } else {
             $oProjects = new MProjects();
             $oProjects = $oProjects->loadList();
             foreach ($oProjects as $row) {
-                $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info)];
+                $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info), "showlink" => (is_dir($row->bildpfad)) ? "show": false];
             }
             echo json_encode($this->projectList);
         }
     }
+
 
     public function getPictures()
     {

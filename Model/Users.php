@@ -1,6 +1,6 @@
 <?php
 
-namespace homeOfPirates\Model;
+namespace Homeofpirates\Model;
 use PDO;
 
 class Users extends Base
