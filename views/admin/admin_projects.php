@@ -233,6 +233,7 @@
             $("#projectDetails").modal();
         } else if(id !== null){
             setActiveProject(id);
+            clearDetails();
             openDetailsWindow();
         }
     }
@@ -259,7 +260,20 @@
                 $("#details_info").html(object["info"]).text();
                 $("#details_link").val(object["link"]).text();
                 $("#details_picturePath").val(object["bildpfad"]).text();
-
+                //sozial list
+                if (!object["sozials"] == "") {
+                    var links = "";
+                    $.each(object["sozials"], function (index, value) {
+                        links = links +
+                            '<div style="flex-direction:column">' +
+                            '<a type_href="'+value["url"]+'">' +
+                            '<img class="details_sozialPreviewPic"  src="http://<?=$config->domain;?>/img/sozials/' + value["type"] + '_sozial.png">' +
+                            '</a>'+
+                            '<span class="details_TableCell" id="details_sozialLinkNew" value="">'+ value["url"] + '</span>'+
+                            '</div>';
+                    });
+                    $("#details_sozialPreview").html(links);
+                }
                 //IMG PATH CHECK
                 if (!object["bildpfadOld"] == "") {
                     $(".details_picturePathNew").css("display", "table-row");
@@ -278,7 +292,6 @@
                         '<img id="picID_' + index + '" class="details_imgPreviewPic"  src="' + value + '" onmouseenter="scalePic(this);" onmouseleave="scalePic(this);">' +
                         '<button class="details_imgPreviewPic" style="background-image:url(\'http://<?=$config->domain;?>/img/icons/xCloseIcon.png\')">' +
                         '</div>';
-
                 });
                 $("#details_imgPreview").html(img);
 
@@ -300,6 +313,9 @@
         $("#details_picturePathOld").val("").text();
         $("#details_picturePathNew").val("").text();
         $("#details_imgPreview").html("");
+        $("#details_sozialPreview").html("");
+        $("#details_sozialLinkNew").val("").text();
+        $("#details_sozialType").val("").text();     //todo set to null somehow
     }
 
     //LOADS IN THE BIG LIST
