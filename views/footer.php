@@ -28,7 +28,8 @@
         $('#action').val(action);
         $("#mainForm").submit();
     }
-    $(":target").show();
+
+
 </script>
 </body>
 </html>

@@ -56,7 +56,7 @@ class Config
      */
     public function setProjectPath()
     {
-        $this->projectPath = dirname(__FILE__) . '\..\\';
+        $this->projectPath = dirname(__FILE__) . '/../';
     }
 
     /**

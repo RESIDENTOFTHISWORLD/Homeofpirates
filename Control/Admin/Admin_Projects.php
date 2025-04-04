@@ -5,6 +5,7 @@ namespace Homeofpirates\Control\Admin;
 
 use Homeofpirates\Config\Config;
 use Homeofpirates\Model\Projects;
+use Homeofpirates\Model\Sozials;
 
 class Admin_Projects extends Admin
 {
@@ -86,8 +87,28 @@ class Admin_Projects extends Admin
                 }
             }
         }
+        $oSozials = new Sozials();
+        if($aSozials = $oSozials->loadList("project_id = ".$projectID)){
+            $oProject->sozials = $aSozials;
+        }
+
         echo json_encode($oProject);
         return true;
+    }
+
+    public function setNewSozialLink()
+    {
+        $aProjectData = [];
+        $aProjectData["project_id"] = $this->getRequestParameter("id");
+        $aProjectData["url"] = $this->getRequestParameter("link");
+        $aProjectData["type"] = $this->getRequestParameter("type");
+        $oSozials = new Sozials();
+        $oSozials->assign($aProjectData);
+        if ($oSozials->save()) {
+            echo "created";
+            return true;
+        }
+        return false;
     }
 
     public function setNewPath()
@@ -131,11 +152,11 @@ class Admin_Projects extends Admin
         $aProjectData["id"] = $this->getRequestParameter("id");
         $aProjectData[$this->getRequestParameter("column")] = $this->getRequestParameter("value");
 
-        ob_start();
-        var_dump($aProjectData);
-
-        error_log(ob_get_contents());
-        ob_end_clean();
+//        ob_start();
+//        var_dump($aProjectData);
+//
+//        error_log(ob_get_contents());
+//        ob_end_clean();
         //        $aData["admin_id"] = $this->removeInjectablesFromStrings($Admin->id); todo Use USER HYARCHY
         $oProjects = new Projects();
         if (!empty($aProjectData["id"])) {
@@ -166,10 +187,10 @@ class Admin_Projects extends Admin
         }
         $oProjects->assign($aProjectData);
         if ($oProjects->save()) {
-            var_dump($aProjectData);
-
-            error_log(ob_get_contents());
-            ob_end_clean();
+//            ob_start();
+//            var_dump($aProjectData);
+//            error_log(ob_get_contents());
+//            ob_end_clean();
             echo $oProjects->id;
             return true;
         }

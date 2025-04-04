@@ -9,7 +9,8 @@ spl_autoload_register(
         $baseDir = __DIR__ . '/';
 
         // Check if the class belongs to the TAL namespace
-        if (str_starts_with($class, $namespaceRoot)) {
+        if (strpos($class, $namespaceRoot) === 0) {
+//        if (str_starts_with($class, $namespaceRoot)) {
             // Remove the namespace root part
             $relativeClass = substr($class, strlen($namespaceRoot));
 

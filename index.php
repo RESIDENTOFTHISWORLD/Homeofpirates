@@ -8,8 +8,6 @@ use Homeofpirates\Config\Config;
 $config = new Config();
 $development = true; // this has to be set to false if on a real server
 
-
-
 $projectPath = $config->projectPath;
 
 session_start();
@@ -46,6 +44,7 @@ foreach ($elements as $element){
 }
 $controller_file = rtrim($controller_file,"/");
 
+//todo deprecated code
 //$elements = explode('/', $path);        // Split path on slashes
 //$elementLength = count($elements);
 //if($development){
@@ -79,7 +78,7 @@ $controller_file = rtrim($controller_file,"/");
 //    }
 //}
 
-//todo fix rerouting segmented
+//todo fix rerouting segmented postponed indefinitly
 //if (empty($request_control) && !empty($controller_file) && file_exists("{$controller_dir}{$controller_file}.php")) {
 //    $classname = "TAL\\Control\\{$namespaceURL}";
 //    $controller = new $classname();

@@ -4,6 +4,7 @@ namespace Homeofpirates\Control;
 
 use Homeofpirates\Config\Config;
 use Homeofpirates\Model\Projects as MProjects;
+use Homeofpirates\Model\Sozials;
 
 class Projects extends Base
 {
@@ -19,6 +20,7 @@ class Projects extends Base
         $category = $this->getRequestParameter("category");
         $limit = $this->getRequestParameter("limit");
         $offset = $this->getRequestParameter("offset");
+
         switch ($operator) {
             case "SM":
                 $operator = "<";
@@ -33,21 +35,48 @@ class Projects extends Base
                 $operator = ">=";
                 break;
         }
+        $oProjects = new MProjects();
+        $oSozials = new Sozials();
+        if ($year === "") {
+            $aProjects = $oProjects->loadList(false, false, false, $limit, $offset);
+            foreach ($aProjects as $key => $row) {
+                $rows_oSozials = $oSozials->loadList("project_id = " . $row->id);
 
+                $this->projectList[$key] =  ["id" => $row->id];
+                $this->projectList[$key] += ["titel" => strip_tags($row->titel)];
+                $this->projectList[$key] += ["beschreibung" => strip_tags($row->beschreibung)];
+                $this->projectList[$key] += ["info" => strip_tags($row->info)];
 
-        //todo STOP injection right here after getting this list thing to work
-        if ($year !== "") {
-            $oProjects = new MProjects();
-            $oProjects = $oProjects->loadList("kategorie = '" . $category . "' AND datum " . $operator . " " . $year . " AND datum IS NOT NULL");
-            foreach ($oProjects as $row) {
-                $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info), "showlink" => (is_dir($row->bildpfad)) ? "show": false];
+                if (!empty($rows_oSozials)) {
+                    foreach ($rows_oSozials as $sozialKey=> $sozial) {
+                        $this->projectList[$key]["sozialLinks"][$sozialKey] = ["id" => $sozial->id];;
+                        $this->projectList[$key]["sozialLinks"][$sozialKey] += ["url" => $sozial->url];;
+                        $this->projectList[$key]["sozialLinks"][$sozialKey] += ["type" => $sozial->type];;
+                    }
+                }
+
+                $this->projectList[$key] += ["showLink" => (is_dir($row->bildpfad)) ? "show" : false];
             }
             echo json_encode($this->projectList);
-        } else {
-            $oProjects = new MProjects();
-            $oProjects = $oProjects->loadList();
-            foreach ($oProjects as $row) {
-                $this->projectList[] = ["id" => $row->id, "titel" => strip_tags($row->titel), "beschreibung" => strip_tags($row->beschreibung), "info" => strip_tags($row->info), "showlink" => (is_dir($row->bildpfad)) ? "show": false];
+        } else if ($year !== "") {
+            $aProjects = $oProjects->loadList("kategorie = '" . $category . "' AND datum " . $operator . " " . $year . " AND datum IS NOT NULL", false, false, $limit, $offset);
+            foreach ($aProjects as $key => $row) {
+                $rows_oSozials = $oSozials->loadList("project_id = " . $row->id);
+
+                $this->projectList[$key] =  ["id" => $row->id];
+                $this->projectList[$key] += ["titel" => strip_tags($row->titel)];
+                $this->projectList[$key] += ["beschreibung" => strip_tags($row->beschreibung)];
+                $this->projectList[$key] += ["info" => strip_tags($row->info)];
+
+                if (!empty($rows_oSozials)) {
+                    foreach ($rows_oSozials as $sozialKey=> $sozial) {
+                        $this->projectList[$key]["sozialLinks"][$sozialKey] = ["id" => $sozial->id];;
+                        $this->projectList[$key]["sozialLinks"][$sozialKey] += ["url" => $sozial->url];;
+                        $this->projectList[$key]["sozialLinks"][$sozialKey] += ["type" => $sozial->type];;
+                    }
+                }
+
+                $this->projectList[$key] += ["picture_modal" => (is_dir($row->bildpfad)) ? "show" : false];
             }
             echo json_encode($this->projectList);
         }
@@ -66,7 +95,7 @@ class Projects extends Base
         $pictureArray = [];
         while ($file = readdir($handle)) {
             if ($file !== '.' && $file !== '..') {
-                $pictureArray[] .= $oProjects->bildpfad."/".$file;
+                $pictureArray[] .= $oProjects->bildpfad . "/" . $file;
             }
         }
 //        this works with the previous images in database underneath

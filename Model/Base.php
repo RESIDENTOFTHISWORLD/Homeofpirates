@@ -20,7 +20,7 @@ class Base extends \stdClass {
         return $this->tablename;
     }
 
-    public function loadList($sAdditionalWhere = false, $orderBy = false, $additionalValues = false, $limit = false)
+    public function loadList($sAdditionalWhere = false, $orderBy = false, $additionalValues = false, $limit = 0, $offset = false)
     {
         $rows = array();
         $query = "SELECT * FROM " . $this->getTableName();
@@ -30,9 +30,20 @@ class Base extends \stdClass {
         if ($orderBy != false) {
             $query .= " ORDER BY " . $orderBy;
         }
-        if ($limit != false) {
+        if ($limit != 0 && $limit != "false") {
             $query .= " LIMIT " . $limit;
         }
+        if ($offset != false && $offset != "false" && $offset != 0) {
+            $iLimit = (int)$limit;
+            $iOffset = (int)$offset;
+            if ($limit != 0 && $limit != "false") {
+                 $iOffset;
+            }else{
+                $iOffset = 0;
+            }
+            $query .= " OFFSET " . $iOffset;
+        }
+        error_log($query);
         $stmt = $this->dbc->prepare($query);
         $stmt->execute();
 
@@ -110,7 +121,7 @@ class Base extends \stdClass {
             }
         }
         $query = "INSERT INTO " . $this->getTableName() . " (" . $keys . ") VALUES (" . $sValues . ")";
-        error_log($query);
+//        error_log($query);
         $stmt = $this->dbc->prepare($query);
         if($stmt->execute($param)){
           $this->id = $this->dbc->lastInsertId();
@@ -143,7 +154,7 @@ class Base extends \stdClass {
         }
         $query .= " WHERE id = :id";
         $param[":id"] = $this->id;
-        error_log($query);
+
 
         $stmt = $this->dbc->prepare($query);
         if($stmt->execute($param)){

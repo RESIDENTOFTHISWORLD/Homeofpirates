@@ -471,3 +471,13 @@ div.modal {
     width: 20vw;
     max-width: 200px;
 }
+
+
+.sozialLink  {
+display: flex
+}
+
+.sozialLinks  {
+    display: flex;
+
+}

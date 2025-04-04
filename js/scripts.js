@@ -43,3 +43,9 @@ function showMore(toggleButton) {
     toggleButton.textContent = "weniger anzeigen ↑";
   }
 }
+
+function show(element) {
+  if (element.style.maxHeight) { // if any value in content
+    element.style.maxHeight = element.scrollHeight + "px";
+  }
+}
